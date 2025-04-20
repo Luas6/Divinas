@@ -1,0 +1,20 @@
+
+.bg-gray {
+    background-color: #cccccc;
+}
+
+.card{
+    width: 300px;
+    border: none;
+}
+
+.text-container {
+    text-align: center;
+    padding: 20px;
+}
+.card-body{
+    place-items: center;
+}
+.card-body p{
+    margin-bottom: 0.25rem;
+}
