@@ -31,7 +31,7 @@ jobs:
 
       - name: 🏗️ Compilar la app Angular
         run: |
-          npm run build -- --output-path=dist --base-href="/"
+          npm run build -- --output-path=dist --base-href="/Divinas/"
           cp dist/index.html dist/404.html
 
       - name: Setup Pages

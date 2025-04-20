@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/",
+            "baseHref": "/Divinas/",
             "outputPath": "dist/divinas-teatro",
             "index": "src/index.html",
             "main": "src/main.ts",
