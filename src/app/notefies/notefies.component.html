@@ -1,1 +1,97 @@
-<p>notefies works!</p>
+<header class="banner-container">
+    <div class="row align-items-center justify-content-evenly">
+        <!-- Imagen -->
+        <div class="col-md-6 col-xl-4">
+            <img src="assets/img/banner-notefies.webp" alt="Divinas... Teatro" class="img-fluid banner-image">
+        </div>
+
+        <!-- Texto -->
+        <div class="col-md-6 col-xl-4 text-container">
+            <h1 class="title">No te fíes</h1>
+            <p class="description">
+                Tres amigas se reúnen para celebrar juntas la última noche del año.
+                A pesar de no verse en mucho tiempo, tienen poco qué decir más
+                que la queja constante.</p>
+            <p class="description">
+                Esta noche, el pánico lo domina todo y se cuela por la cerradura.
+                Abrir o no abrir la puerta. Mostrarse tal cual uno es, con sus
+                limitaciones y miserias, o seguir disimulando. Ignorar o aceptar al
+                otro...</p>
+            <ul class="características">
+                <li>🎭 Comedia</li>
+                <li>👥 Jóvenes y adultos</li>
+                <li>⏱️ 60 minutos</li>
+            </ul>
+
+        </div>
+    </div>
+</header>
+
+<section class="pb-5 bg-gray">
+    <div class="container">
+        <div class="row gy-4">
+
+            <div class="col-12 d-flex justify-content-center">
+                <div class="card flex-row h-100 shadow-lg">
+                    <div class="card-body d-flex flex-column align-items-start justify-content-center">
+                        <strong class="d-inline-block mb-2 text-success">Directora</strong>
+                        <h3 class="mb-0">Frida</h3>
+                        <div class="mb-1 text-muted">Elena Romero</div>
+                    </div>
+                    <img class="card-img-right" src="assets/img/elena-notefies.webp" alt="Lola" width="200px"
+                        height="250px" loading="lazy">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <div class="card flex-row h-100 shadow-lg">
+                    <div class="card-body d-flex flex-column align-items-start justify-content-center">
+                        <h3 class="mb-0">Greta</h3>
+                        <div class="mb-1 text-muted">Mercedes García</div>
+                    </div>
+                    <img class="card-img-right" src="assets/img/mercedes-notefies.webp" alt="Cuca" width="200px"
+                        height="250px" loading="lazy">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <div class="card flex-row h-100 shadow-lg">
+                    <div class="card-body d-flex flex-column align-items-start justify-content-center">
+                        <h3 class="mb-0">Mona</h3>
+                        <div class="mb-1 text-muted">Silvia Jiménez</div>
+                    </div>
+                    <img class="card-img-right " src="assets/img/silvia-notefies.webp" alt="Mona" width="200px"
+                        height="250px" loading="lazy">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-dark text-center">
+    <div class="container">
+        <h2 class="text-white mb-4 title">🎬 Tráiler</h2>
+        <div class="video-wrapper ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/_kGfAta_Csg"  allow="autoplay"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-gray">
+    <div class="container">
+        <h2 class="text-center mb-4 title">Galería</h2>
+
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide><img src="assets/img/notefies1.webp" alt="notefie 1" class="img-fluid rounded"
+                    loading="lazy"></ng-template>
+            <ng-template carouselSlide><img src="assets/img/notefies2.webp" alt="notefie 2" class="img-fluid rounded"
+                    loading="lazy"></ng-template>
+            <ng-template carouselSlide><img src="assets/img/notefies3.webp" alt="notefie 3" class="img-fluid rounded"
+                    loading="lazy"></ng-template>
+
+        </owl-carousel-o>
+    </div>
+</section>
